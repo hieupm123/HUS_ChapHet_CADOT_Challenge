@@ -1,0 +1,11 @@
+# Train/val dataset locations
+path: ../../../data
+train: CADOT_Dataset/train  # Đường dẫn tới thư mục chứa ảnh train
+val: CADOT_Dataset/valid  # Đường dẫn tới thư mục chứa ảnh validation
+# test: [Optional]  # Đường dẫn tới thư mục chứa ảnh test (nếu có)
+
+# Number of classes
+nc: 15  # !!! QUAN TRỌNG: Thay ??? bằng SỐ LƯỢNG lớp đối tượng của bạn
+
+# Class names
+names: ['small-object', 'basketball field', 'building', 'crosswalk', 'football field', 'graveyard', 'large vehicle', 'medium vehicle', 'playground', 'roundabout', 'ship', 'small vehicle', 'swimming pool', 'tennis court', 'train'] # !!! QUAN TRỌNG: Thay bằng danh sách TÊN các lớp đối tượng theo ĐÚNG THỨ TỰ index (từ 0) mà bạn đã gán nhãn

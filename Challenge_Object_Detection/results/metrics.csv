@@ -1,0 +1,16 @@
+Class_Name,Best_AP50_Score
+basketball field,0.4248
+building,0.8451
+crosswalk,0.92
+football field,0.3911
+graveyard,0.6551
+large vehicle,0.5961
+medium vehicle,0.7461
+playground,0.2678
+roundabout,0.4261
+ship,0.7664
+small vehicle,0.9062
+swimming pool,0.684
+tennis court,0.5875
+train,0.4804
+"OVERALL (Hybrid mAP50, excl. 'small-object')",0.6212
