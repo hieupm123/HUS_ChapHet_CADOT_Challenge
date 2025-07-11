@@ -32,15 +32,15 @@ It is highly recommended to use a virtual environment (e.g., `venv` or `conda`) 
     pip install -r requirements.txt
     ```
 
-### Step-by-Step Execution Commands
+## Step-by-Step Execution Commands
 
 The following scripts must be run in the specified order. Replace placeholder paths and parameters with your actual values.
-
+```bash
 ### 1. Data Augmentation
 
 This script preprocesses and augments your dataset.
 
-```bash
+
 python3 data_augmentation.py 
 
 
